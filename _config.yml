@@ -6,16 +6,15 @@
 # 'jekyll serve'. If you change this file, please restart the server process.
 
 # Site settings
-title: Your awesome title
-email: your-email@domain.com
+title: Liquid Galaxy
+email: liquid-galaxy@googlegroups.com
 description: > # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
+  Rally point for the Liquid Galaxy community and the Open Source code
+  we publish to help others get start.
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "http://yourdomain.com" # the base hostname & protocol for your site
-twitter_username: jekyllrb
-github_username:  jekyll
+url: "http://liquidgalaxy.github.io" # the base hostname & protocol for your site
+#twitter_username:  liquid-galaxy
+github_username:  LiquidGalaxy
 
 # Build settings
 markdown: kramdown
