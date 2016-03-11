@@ -10,7 +10,7 @@ title: Liquid Galaxy
 email: liquid-galaxy@googlegroups.com
 description: > # this means to ignore newlines until "baseurl:"
   Rally point for the Liquid Galaxy community and the Open Source code
-  we publish to help others get start.
+  we publish to help others get started.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://liquidgalaxy.github.io" # the base hostname & protocol for your site
 #twitter_username:  liquid-galaxy
