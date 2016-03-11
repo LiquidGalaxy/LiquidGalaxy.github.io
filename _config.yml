@@ -15,7 +15,7 @@ baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://liquidgalaxy.github.io" # the base hostname & protocol for your site
 #twitter_username:  liquid-galaxy
 github_username:  LiquidGalaxy
-github_username:  EndPointCorp
+github_username2:  EndPointCorp
 
 # Build settings
 markdown: kramdown
