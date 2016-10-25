@@ -1,2 +1,2 @@
 # liquidgalaxy.github.io
-New liquidgalaxy.org website
+Source for the liquidgalaxy.org website
