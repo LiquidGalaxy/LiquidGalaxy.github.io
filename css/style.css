@@ -1,0 +1,89 @@
+body {
+    padding-top: 50px;
+}
+
+.section {
+    margin-bottom: 50px;
+}
+
+.footer {
+    margin-bottom: 25px;
+}
+
+.img-side {
+    width: 100%;
+} 
+
+#map {
+    padding: 30px;
+}
+
+#map > #container {
+    height: 400px;
+}
+
+.header-bg {
+    background: url("/liquidgalaxy_wip/img/black35.png") repeat 0 0, url("/liquidgalaxy_wip/img/lg-0.jpg") no-repeat 0 -100px/100%;
+}
+
+.header-bg h1 {
+    color: white;
+    text-shadow: 1px 1px 5px black;
+}
+
+.subtitle {
+    color: white;
+    text-shadow: 1px 1px 5px black;
+}
+
+.carousel {
+    max-width: 800px;
+    width: 75%;
+    margin: auto;
+}
+
+td {
+    width: 50%;
+    padding: 0 10px 0 0;
+}
+
+.code-columns {
+    display: inline;
+}
+
+.code-text {
+    display: none;
+}
+
+@media (max-width: 1024px) {
+    .header-bg {
+        background: url("/liquidgalaxy_wip/img/black35.png") repeat 0 0, url("/liquidgalaxy_wip/img/lg-0.jpg") no-repeat -75px -40px/150%;
+    }
+}
+
+@media (max-width: 767px) {
+    .header-bg {
+        background: url("/liquidgalaxy_wip/img/black35.png") repeat 0 0, url("/liquidgalaxy_wip/img/lg-0.jpg") no-repeat -250px 0/250%;
+    }
+    #map {
+        padding: 30px 50px;
+    }
+    .code-table {
+        display: none;
+    }
+    .code-text {
+        display: inline;
+    }
+    .section {
+        margin-bottom: 30px;
+    }
+}
+
+@media (max-width: 320px) {
+    .header-bg {
+        background: url("/liquidgalaxy_wip/img/black35.png") repeat 0 0, url("/liquidgalaxy_wip/img/lg-0.jpg") no-repeat -275px 0/275%;
+    }
+    .section {
+        margin-bottom: 10px;
+    }
+}
