@@ -1,2 +1,2 @@
-# liquidgalaxy_wip
-Scratchpad for LiquidGalaxy.org website
+# liquidgalaxy.github.io
+New liquidgalaxy.org website

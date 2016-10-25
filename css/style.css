@@ -23,7 +23,7 @@ body {
 }
 
 .header-bg {
-    background: url("/liquidgalaxy_wip/img/black35.png") repeat 0 0, url("/liquidgalaxy_wip/img/lg-0.jpg") no-repeat 0 -100px/100%;
+    background: url("/img/black35.png") repeat 0 0, url("/img/lg-0.jpg") no-repeat 0 -100px/100%;
 }
 
 .header-bg h1 {
@@ -57,13 +57,13 @@ td {
 
 @media (max-width: 1024px) {
     .header-bg {
-        background: url("/liquidgalaxy_wip/img/black35.png") repeat 0 0, url("/liquidgalaxy_wip/img/lg-0.jpg") no-repeat -75px -40px/150%;
+        background: url("/img/black35.png") repeat 0 0, url("/img/lg-0.jpg") no-repeat -75px -40px/150%;
     }
 }
 
 @media (max-width: 767px) {
     .header-bg {
-        background: url("/liquidgalaxy_wip/img/black35.png") repeat 0 0, url("/liquidgalaxy_wip/img/lg-0.jpg") no-repeat -250px 0/250%;
+        background: url("/img/black35.png") repeat 0 0, url("/img/lg-0.jpg") no-repeat -250px 0/250%;
     }
     #map {
         padding: 30px 50px;
@@ -81,7 +81,7 @@ td {
 
 @media (max-width: 320px) {
     .header-bg {
-        background: url("/liquidgalaxy_wip/img/black35.png") repeat 0 0, url("/liquidgalaxy_wip/img/lg-0.jpg") no-repeat -275px 0/275%;
+        background: url("/img/black35.png") repeat 0 0, url("/img/lg-0.jpg") no-repeat -275px 0/275%;
     }
     .section {
         margin-bottom: 10px;
