@@ -6,6 +6,8 @@ L.tileLayer('https://www-{s}.endpoint.com/osm/{s}/{z}/{x}/{y}.png', {
     maxZoom: 18
 }).addTo(map);
 
+L.Icon.Default.imagePath = "/js/images/";
+
 var installations = [
     {
         latitude: '37.333333',
