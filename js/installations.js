@@ -34,6 +34,12 @@ var installations = [
         place: 'Ann Arbor, Michigan',
     },
     {
+      latitude: '-33.768397',
+      longitude: '150.729031',
+      title: 'Western Sydney University',
+      place: 'Sydney, NSW, Australia',
+    },
+    {
         latitude: '37.389444',
         longitude: '-122.081944',
         title: 'Computer History Museum',
