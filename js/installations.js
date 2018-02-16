@@ -1,7 +1,7 @@
 var map = L.map( $('#map > #container').get(0) ).setView([30, -10], 2);
 
-L.tileLayer('https://www-{s}.endpoint.com/osm/{s}/{z}/{x}/{y}.png', {
-    attribution: 'Map data © <a href="http://www.openstreetmap.org/">OpenStreetMap</a> contributors',
+L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
+    attribution: 'Map data © <a href="https://www.openstreetmap.org/">OpenStreetMap</a> contributors',
     minZoom: 2,
     maxZoom: 18
 }).addTo(map);
