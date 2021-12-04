@@ -12,30 +12,6 @@
   <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-  <span id="top"></span>
-  <header class="navbar navbar-inverse navbar-fixed-top">
-    <div class="container">
-      <div class="navbar-header">
-        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
-          <span class="sr-only">Toggle navigation</span>
-          <span class="icon-bar"></span>
-          <span class="icon-bar"></span>
-          <span class="icon-bar"></span>
-        </button>
-        <a class="navbar-brand" href="#top">Liquid Galaxy</a>
-      </div>
-      <div id="navbar" class="collapse navbar-collapse">
-        <ul class="nav navbar-nav">
-          <li><a href="#overview">Overview</a></li>
-          <li><a href="#get-the-code">Get the Code</a></li>
-          <li><a href="#documentation">Documentation</a></li>
-          <li><a href="#issues">Issues</a></li>
-          <li><a href="#showcase">Showcase</a></li>
-        </ul>
-      </div>
-    </div>
-  </header>
-
   <div class="jumbotron header-bg">
     <div class="container">
       <h1>Liquid Galaxy</h1>
@@ -45,127 +21,24 @@
   </div>
   <div class="container">
     <div class="section" id="overview">
-      <h1 class="page-header">Overview</h1>
-      <p>The Liquid Galaxy platform utilizes a cluster of computers, controllers, and multiple displays to provide an immersive panoramic experience. Starting as a Google 20% project, the Liquid Galaxy can now be found in over 50 permanent locations globally, as well as numerous conferences and events.</p>
-
-      <p>The core parts of the Liquid Galaxy are open source: scripts to sync the view across application instances, as well as scripts to adjust the viewing angle of a 3D rendered environment (such as <a href="http://www.google.com/earth/">Google Earth</a>).</p>
-
-      <p>This website links to code repositories where you can find specific features, installation guides, and even blueprints to build your own display frame:</p>
-      <ul>
-        <li><a href="https://github.com/liquidgalaxy/liquid-galaxy/wiki/QuickStart">QuickStart</a> guide for using view synchronization</li>
-        <li>Liquid Galaxy <a href="https://github.com/liquidgalaxy/liquid-galaxy/wiki/LiquidGalaxyHOWTO">HOWTO</a></li>
-        <li><a href="https://github.com/liquidgalaxy/liquid-galaxy/wiki/LinuxSpaceNavigator">Using the 3Dconnexion SpaceNavigator with Google Earth in Linux</a></li>
-        <li><a href="https://github.com/liquidgalaxy/liquid-galaxy/wiki/MechanicalDesign">Mechanical design</a> for our custom-built frame</li>
-      </ul>
-
-      <p>Below, you will also find a list of known issues on GitHub and a gallery of installations from around the world.</p>
-    </div>
-    <div class="section" id="get-the-code">
-      <h1 class="page-header">Get the Code</h1>
-      <div class="code-columns"><!--hidden on small screens, shown on large-->
-        <div class="row">
-          <div class="col-sm-6"><p>The Liquid Galaxy combines several apps for viewing content as well as libraries to support those apps in a properly maintained system. The Liquid Galaxy can run on Linux, Mac, and Windows systems. Anecdotal evidence shows Linux to be the most stable.</p></div>
-          <div class="col-sm-6"><p>End Point Corporation has developed an extensive new codebase of ROS (Robot Operating System) nodes to provide Liquid Galaxy functionality. This system is under active development and provides an organized framework for further extending the system.</p></div>
-        </div>
-        <div class="row">
-          <div class="col-sm-6"><p><a class="btn btn-default btn-lg" href="https://github.com/liquidgalaxy/liquid-galaxy/" role="button">Liquid Galaxy GitHub</a></p></div>
-          <div class="col-sm-6"><p><a class="btn btn-default btn-lg" href="https://github.com/EndPointCorp/lg_ros_nodes" role="button">End Point LG ROS Nodes</a></p></div>
-        </div>
-      </div>
-      <div class="code-text"><!--hidden on large screens, shown on small-->
-        <p>The Liquid Galaxy combines several apps for viewing content as well as libraries to support those apps in a properly maintained system. The Liquid Galaxy can run on Linux, Apple, and Windows systems (note: anecdotal evidence shows Linux to be the most stable).</p>
-        <p><a class="btn btn-default btn-lg" href="https://github.com/liquidgalaxy/liquid-galaxy/" role="button">Liquid Galaxy GitHub</a></p>
-        <p>End Point Corporation has developed an extensive new codebase of ROS Nodes to provide Liquid Galaxy functionality. This system is under active development and provides an organized framework for further extending the system.</p>
-        <p><a class="btn btn-default btn-lg" href="https://github.com/EndPointCorp/lg_ros_nodes" role="button">End Point LG ROS Nodes</a></p>
-      </div>
-      <h3>Google Summer of Code Projects</h3>
-      <!--<div class="row">
-        <div class="col-sm-6">-->
-          <h4>2017</h4>
-          <ul>
-            <li><a href="https://summerofcode.withgoogle.com/archive/2017/projects/6074492237381632/">Ivan Josa - Fly Over Your Big Data</a></li>
-            <li><a href="https://summerofcode.withgoogle.com/archive/2017/projects/6707810934980608/">Javier Calvo García- SAVT (Smart Agro Visualization Tool)</a></li>
-            <li><a href="https://summerofcode.withgoogle.com/archive/2017/projects/5863566930345984/">Guillem Barbosa - Wikimedia Data Liquid Galaxy</a></li>
-          </ul>
-          <h4>2016</h4>
-          <ul>
-            <li><a href="https://github.com/LiquidGalaxyLAB/Liquid-Galaxy-POIs-Controller">Ivan Josa - Liquid Galaxy POIs Controller</a></li>
-            <li><a href="https://github.com/LiquidGalaxyLAB/IBRI">Moises Lodeiro - Interactive Beacon Rescue Interface</a></li>
-            <li><a href="https://github.com/LiquidGalaxyLAB/PILT">Marc Gonzalez - Panoramic Interactive Live Tracker</a></li>
-            <li><a href="https://github.com/LiquidGalaxyLAB/asherat666-lg-potree">Ismael Arroyo - Point Cloud Visualization Tool for Liquid Galaxy</a></li>
-            <li><a href="https://github.com/LiquidGalaxyLAB/DLP">Drone Logistics Platform</a></li>
-            <li><a href="https://github.com/LiquidGalaxyLAB/PhysicalWebLGPoiReader">Ivan Josa Llovera - Physical Web LG POI Reader</a></li>
-            <li><a href="https://github.com/abhishekvp/cesium-lg">Abhishek Potnis - Enabling Cesium for Liquid Galaxy</a></li>
-          </ul>
-
-          <h4>2015</h4>
-          <ul>
-            <li><a href="https://github.com/LiquidGalaxyLAB/FAED">Julio Bondia - FAED Display</a></li>
-            <li>Nicholas Verstegen - Panorama Database</li>
-            <li>Ying Nie - Baidu Street View</li>
-            <li><a href="https://github.com/LiquidGalaxyLAB/ViewYourData">Marc Solé Farré - View Your Data</a></li>
-            <li>Rafael Duran - Android Point-of-Interest Controller</li>
-            <li>Revanth NR - Stellarium</li>
-          </ul>
-        <!--</div>
-        <div class="col-sm-6">-->
-          <h4>2014</h4>
-          <ul>
-            <li>Zhuming Hao - Chinese Street View for the Peruse-a-Rue application</li>
-            <li>Carlos de Dios Felis - video conferencing with multi-parties on Liquid Galaxy</li>
-            <li>Marc Gonzalez Capdevila - dynamic activities with Interactive Spaces toolkit</li>
-            <li>Adnan Zahid - multi-screen web-browsing experience</li>
-            <li>Ismael Arroyo - benchmarking system performance</li>
-          </ul>
-
-          <h4>2013</h4>
-          <ul>
-            <li>Mihai and Randy - multi-screen video conferencing for Liquid Galaxy</li>
-            <li>Joan - accessing OpenDAI geospatial data</li>
-            <li>Ismael - benchmarking and performance metrics for Liquid Galaxy systems</li>
-          </ul>
-
-          <h4>2012</h4>
-          <ul>
-            <li>Babak - Microsoft Kinect navigation control on Google Earth</li>
-            <li>Paul - further development of ClusterGL for immersive OpenGL applications</li>
-            <li>Zhumin - Liquid Galaxy synchronization with JavaScript</li>
-          </ul>
-
-          <h4>2011</h4>
-          <ul>
-            <li><a href="https://github.com/reesebutler/Android-accelerometer-and-touch-screen-control">Reese - Android control of Google</a></li>
-            <li><a href="https://github.com/bieh/clustergl">Paul - ClusterGL for immersive OpenGL applications</a></li>
-            <li><a href="https://github.com/bwright/gsoc2011">Ben - view synchronization to the IrrLicht Engine</a></li>
-          </ul>
-        <!--</div>
-      </div>-->
-    </div>
-
-    <div class="row">
-      <div class="col-sm-6">
-        <div class="section" id="documentation">
-          <h1 class="page-header">Documentation</h1>
-          <p>Development on the Liquid Galaxy is an ongoing and current process, with contributors in many different regions globally. Configuration files, deployment guides, usage guides, and blueprints for physical build-out are all available on our wiki.</p>
-          <a class="btn btn-default btn-lg" href="https://github.com/liquidgalaxy/liquid-galaxy/wiki" role="button">Liquid Galaxy wiki</a>
-        </div><!--/Documentation-->
-      </div>
-
-      <div class="col-sm-6">
-        <div class="section" id="issues">
-          <h1 class="page-header">Issues</h1>
-          <p>Tell us about an issue you're having, or browse through solved issues.</p>
-          <a class="btn btn-default btn-lg" href="https://github.com/liquidgalaxy/liquid-galaxy/issues" role="button">Submit an Issue</a>
-        </div><!--/Issues-->
-      </div>
-    </div><!--/row-->
-
-    <div class="section" id="showcase">
-      <h1 class="page-header">Showcase</h1>
-      <p>Find a Liquid Galaxy near you, or browse photos of Liquid Galaxy installations below.</p>
-      <div id="map">
-        <div id="container"></div>
-      </div>
+      <p>The Liquid Galaxy is an open source project founded by Google. Created in 2008 by Google employee Jason Holt, the Liquid Galaxy started out as a panoramic multi-display Google Earth viewer, but has evolved to become a general data visualization tool for operations, marketing, and research.</p>
+      <p>The Liquid Galaxy gives the ability to fly around Google Earth, view panoramic video and photos, develop interactive tours, and graphically display GIS data.</p>
+      <p>VisionPort has taken Liquid Galaxy to the next level. Used by museums, universities, corporate offices, and commercial enterprises around the world, the VisionPort hardware consists of large-panel HD TVs within a curved panoramic environment. The VisionPort Content Management System (CMS) enables you to easily build and present an unlimited amount of diverse interactive presentations.</p>
+      <p>VisionPort is prominently used in a multitude of industries:</p>
+      <h4>Real Estate</h4>
+      <p>VisionPort provides an excellent tool for real estate brokerages and management companies to showcase their properties with multiple large screens showing 3D building models and complete Google Earth data.</p>
+      <h4>Museums</h4>
+      <p>The system’s cutting edge technology in itself is a powerful exhibit. Together with beautiful imagery and the ability to explore and discover, it makes a lasting impression on visitors.</p>
+      <h4>Education</h4>
+      <p>As a shared immersive platform, VisionPort is a natural for elementary, secondary, and post-secondary education, as well as other forms of training classrooms.</p>
+      <h4>GIS Consulting</h4>
+      <p>VisionPort is an impactful data visualization tool for operations, marketing, and research. End Point Dev can take almost any data set that contains GIS coordinates and display the data on Google Earth or Cesium.</p>
+      <h4>Travel and Hospitality</h4>
+      <p>Bringing rich satellite imagery and photography to life when experienced in large-scale panorama, VisionPort helps your clients get a taste of your resorts, properties, hotels, or cruises to inspire them to visit in person!</p>
+      <h4>3D Models</h4>
+      <p>VisionPort can render complex 3D scanned spaces and objects with full free-flight navigation and visual control. This is optimal for architects, civic planners, interior designers, or scientific researchers looking to show complex models.</p>
+      <p><a href="https://www.visionport.com/installations/">Click here</a> to see an interactive map of VisionPort and Liquid Galaxy installations all around the globe.</p>
+      <p><a href="https://www.endpointdev.com">End Point Dev</a> is the leading global agency for developing, deploying, and supporting VisionPort and Liquid Galaxy systems. With over 200 installations and events worldwide, our team of engineers and content developers has deep knowledge of the hardware, software, and aesthetics that makes these systems come to life as a dazzling data, business, education, or presentation tool.</p>
       <!--carousel-->
       <div id="showcase-carousel" class="carousel slide" data-ride="carousel">
         <!-- Indicators -->
@@ -246,16 +119,15 @@
           <span class="sr-only">Next</span>
         </a>
       </div>
-    </div>
-    <div class="footer">
-      <p>© 2018 <a href="https://www.endpoint.com/">End Point Corporation</a></p>
+      <div class="footer">
+        <p>© 2021 <a href="https://www.endpointdev.com/">End Point Corporation</a><br>
+        215 Park Ave S Suite 1916, New York, NY 10003</p>
+      </div>
     </div>
   </div>
   <script src="https://code.jquery.com/jquery-1.12.3.min.js" integrity="sha256-aaODHAgvwQW1bFOGXMeX+pC4PZIPsvn2h1sArYOhgXQ=" crossorigin="anonymous"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
   <script src="js/underscore-min.js"></script>
-  <script src="js/leaflet.js"></script>
-  <script src="js/installations.js"></script>
   <script>
     $(function() {
       $('a[href*="#"]:not([href="#"])').click(function() {
@@ -265,7 +137,7 @@
           target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
           if (target.length) {
             $('html, body').animate({
-              scrollTop: target.offset().top - 70
+              scrollTop: target.offset().top - 30
             }, 500);
             return false;
           }
