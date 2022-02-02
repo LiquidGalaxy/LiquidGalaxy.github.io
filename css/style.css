@@ -1,6 +1,6 @@
 h4 {
-  margin: 14px 0 7px;
-  font-weight: bold;
+    margin: 14px 0 7px;
+    font-weight: bold;
 }
 
 .section {
@@ -9,7 +9,7 @@ h4 {
 }
 
 .section p {
-  margin-bottom: 14px;
+    margin-bottom: 14px;
 }
 
 .footer {
@@ -40,6 +40,7 @@ h4 {
 .subtitle {
     color: black;
     text-shadow: 1px 1px 3px gray;
+    font-size: 16px;
 }
 
 .carousel {
